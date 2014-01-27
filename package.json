@@ -1,0 +1,27 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "browserified-lastfm-api",
+  "description": "Port of the lastfm library browserified",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/browserified-lastfm-api.git"
+  },
+  "main": "lib/lastfm.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "author": "connrs",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~1.0.4"
+  }
+}
